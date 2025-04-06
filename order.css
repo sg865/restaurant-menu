@@ -1,0 +1,106 @@
+h1{
+    margin:auto;
+    width: fit-content;
+    border-bottom:2px solid red;
+    margin-top: 50px; 
+}
+
+.order-table{
+    width:100%;
+    border-collapse: collapse;
+    margin-top:20px;
+    background:#f9f9f9;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+tr{
+display: table-row;
+vertical-align: inherit;
+unicode-bidi: isolate;
+border-color:inherit;
+}
+
+ thead{
+    background: #e63946;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+.order-table-head th{
+    padding:15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: larger;
+}
+
+
+tbody{
+    display: table-row-group;
+    vertical-align:middle;
+    unicode-bidi: isolate;
+    border-color:inherit;
+}
+
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.order-number{
+    font-size:20px;
+    font-weight: bold;
+    color:#004aad;
+    flex:1;
+}
+
+
+.order-details{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    flex:2;
+    color:#555;
+}
+
+
+.order-details-item{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    align-items: center;
+    font-size:16px;
+    color:#555;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.order-total{
+    font-size:18px;
+    font-weight: bold;
+    color:#004aad;
+    justify-self: flex-start;
+    flex:1;
+}
+
+.status-delivered{
+    background-color: #27ae60;
+}
+
+.order-status{
+    padding:5px 5px;
+    border-radius:5px;
+    font-size:14px;
+    text-transform: uppercase;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    color:#fff;
+    flex:1;
+}
+
+.order-table td:nth-child(2){
+    text-align: left;
+    margin-left: -10000px; 
+}

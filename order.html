@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="menu.css" />
+    <link rel="stylesheet" href="order.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="logo.png" alt="logo" class="logo">
+        </div>
+        <div class="nav-right">
+            <a href="/signup.html"><button id="login-button">Login</button></a>
+            <ul class="nav-menu">
+                <li>Home</li>
+                <li>Our Menu</li>
+                <li>Our Offers</li>
+                <li>Know Us More</li>
+                <li>Your Order</li>
+                <li>Cart (<span id="cartSize">0</span>)</li>
+            </ul>
+        </div>
+    </nav>
+    <h1>YOUR ORDER</h1>
+    <section class="order-sections">
+        <table class="order-table">
+           <thead class="order-table-head">
+            <tr>
+               <th class="cell">Order No.</th>
+               <th class="cell">Order details</th>
+               <th class="cell">Total Price</th>
+               <th class="cell">Status</th>
+            </tr>
+           </thead>
+           <tbody id="order-table-body">
+            <!-- <tr>
+                <td>
+                    <div class="order-header">
+                        <span class="order-number">Order #1</span>
+                    </div>
+                </td>
+                <td>    
+                    <div class="order-details">
+                    <div class="order-details-item">
+                        <span>Pizza</span>
+                        <span>x2</span>
+                   </div>
+                    <div class="order-details-item">
+                         <span>Garlic Bread</span>
+                         <span>x1</span>
+                    </div>
+                </div>
+                </td>
+                <td>
+                    <div class="order-total">Total: $25.99</div>
+                </td>
+                <td>
+                    <span class="order-status status-delivered">
+                          Delivered
+                    </span>
+                </td>
+            </tr> -->
+           </tbody>
+        </table>
+    </section>
+</body>
+<script src="order.js"></script>
+
+</html>

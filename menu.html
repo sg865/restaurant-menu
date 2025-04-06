@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="menu.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="logo.png" alt="logo" class="logo">
+        </div>
+        <div class="nav-right">
+            <a href="/signup.html"><button id="login-button">Login</button></a>
+            <ul class="nav-menu">
+                <li>Home</li>
+                <li>Our Menu</li>
+                <li>Our Offers</li>
+                <li>Know Us More</li>
+                <li>Your Order</li>
+                <li>Cart (<span id="cartSize">0</span>)</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="menu-banner">
+        <h1>OUR MENU</h1>
+    </div>
+    <div class="menu-search">
+        <input type="text" placeholder="What do you want to search?" class="search-bar">
+        <div class="menu-search-categories">
+            <button class="active">All</button>
+            <button>Bevarages</button>
+            <button>Main Course</button>
+            <button>Combos</button>
+        </div>
+    </div>
+    <section class="search-sections">
+        <h1>Search Results</h1>
+        <div class="search-section-items">
+            <div class="search-items">
+                </div>
+            </div> 
+    </section>
+    <section class="menu-sections">
+        <h1>BestSeller</h1>
+        <div class="menu-section-items">
+            <div class="menu-items">
+                </div>
+            </div> 
+    </section>
+    <div class="footer">
+        <div class="footer-top">
+            <div class="footer-section1">
+                <img src="logo.png" alt="logo" class="logo">
+            </div>
+            <div class="footer-section2">
+                <h1>Quick links</h1>
+                <span>Our Menu</span>
+                <span>Our Offers</span>
+                <span>Know What We Have Achieved</span>
+            </div>
+            <div class="footer-section3">
+                <h1>Wanna Get Updated With Our Exciting Offers?</h1>
+                <span>Follow Us On:</span>
+                <span>Instagram | Facebook | Twitter</span>
+                <hr>
+                <form>
+                    <input type="text" placeholder="Subscribe for daily exciting offers" class="email">
+                    <button>Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            Terms and Conditions | Privacy Policy | All Rights Reserved
+        </div>
+    </div>
+</body>
+<script type="module" src="menu.js"></script>
+
+</html>
