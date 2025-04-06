@@ -55,13 +55,14 @@ width: 10vw;
   align-items: center;
 }
 
-.nav-menu li{
+.nav-menu li a{
     display: inline;
     color : white;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.nav-menu li:hover{
+.nav-menu li a:hover{
     color:#ffcc00;
     border-bottom: 1px solid #ffcc00;
 }
